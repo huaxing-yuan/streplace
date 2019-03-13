@@ -86,7 +86,7 @@ namespace StringReplace
                 }
             }
 
-            string[] tags = { "Text=", "Header=", "CheckedText=", "UncheckedText=", "ToolTip=", "Content=", "Title=" };
+            string[] tags = { "Text=", "Header=", "CheckedText=", "UncheckedText=", "ToolTip=", "Content=", "Title=", "Caption="};
 
             foreach (var file in codeFolder.GetFiles("*.xaml", SearchOption.AllDirectories))
             {
