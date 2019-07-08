@@ -100,7 +100,7 @@ namespace StringReplace
 
                 foreach(var pair in keyvalues)
                 {
-                    string toFind = pair.Value.Replace("\n","%#x0a;");
+                    string toFind = pair.Value.Replace("\n", "&#13;");
                     foreach(var tag in tags)
                     {
                         string original = tag + "\"" + toFind + "\"";
